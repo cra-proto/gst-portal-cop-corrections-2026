@@ -1,4 +1,4 @@
-# GST portal COP corrections 2026
+# GST portal COP corrections
 
 *description of the project*
 
@@ -64,5 +64,5 @@ flowchart TD;
     click node10 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/how-file.html" _blank
     click node11 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/how-file/get-gst-hst-access-code.html" _blank
     classDef inscope stroke:#7636ab,stroke-width:3px
-    class node5,node6,node7,node11 inscope
+    class node5,node6,node7,node8,node11 inscope
 ```
