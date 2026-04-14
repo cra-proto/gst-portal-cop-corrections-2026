@@ -37,29 +37,32 @@ flowchart TD;
     node4(Digital services for businesses)
     node5(Adjusting a GST/HST #40;and QST#41; return  – CRA account help – Businesses)
     node6(Completing a GST/HST or QST return – CRA account help - Businesses)
-    node7(GST/HST for businesses)
-    node8(File your GST/HST return)
-    node9(How to file – File your GST/HST return)
-    node10(Get a GST/HST access code – File your GST/HST return)
+    node7(Filing a GST/HST or QST election #40;or both#41; – CRA account help - Businesses)
+    node8(GST/HST for businesses)
+    node9(File your GST/HST return)
+    node10(How to file – File your GST/HST return)
+    node11(Get a GST/HST access code – File your GST/HST return)
     node1 --> node2
     node2 --x node3
     node3 --> node4
     node4 --x node5
     node4 --x node6
-    node2 --> node7
-    node7 --> node8
+    node4 --x node7
+    node2 --> node8
     node8 --> node9
     node9 --> node10
+    node10 --> node11
     click node1 "https://www.canada.ca/en.html" _blank
     click node2 "https://www.canada.ca/en/services/taxes.html" _blank
     click node3 "https://www.canada.ca/en/revenue-agency/services/e-services.html" _blank
     click node4 "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses.html" _blank
     click node5 "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/adjust-a-return.html" _blank
     click node6 "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/gst-hst-electronic-filing.html" _blank
-    click node7 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html" _blank
-    click node8 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return.html" _blank
-    click node9 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/how-file.html" _blank
-    click node10 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/how-file/get-gst-hst-access-code.html" _blank
+    click node7 "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/file-election.html" _blank
+    click node8 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html" _blank
+    click node9 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return.html" _blank
+    click node10 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/how-file.html" _blank
+    click node11 "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/how-file/get-gst-hst-access-code.html" _blank
     classDef inscope stroke:#7636ab,stroke-width:3px
-    class node5,node6,node10 inscope
+    class node5,node6,node7,node11 inscope
 ```
