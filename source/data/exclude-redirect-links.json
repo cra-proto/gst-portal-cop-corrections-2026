@@ -6,5 +6,9 @@
   {
     "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/business-account/gst-hst-electronic-filing.html",
     "destination": "/gst-portal-cop-corrections-2026/en/revenue-agency/services/e-services/digital-services-businesses/business-account/gst-hst-electronic-filing.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/how-file/get-gst-hst-access-code.html",
+    "destination": "/gst-portal-cop-corrections-2026/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/how-file/get-gst-hst-access-code.html"
   }
 ]
